@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guess Number</title>
+    <link rel="icon" href="guess_icon.png">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="box">
+    <h1>Guess the number from 1 to 10</h1>
+    <input type="number" id="inputnumber" min="1" max="10">
+    <br>
+    <button onclick="ans()">check</button>
+    <br>
+    <p id="rw">Your are right or wrong</p>
+    <p>Your chance :<span id="chance">5</span></p>
+    <button class="re" onclick="relode()">restart</button>
+    </div>
+
+    <script src="checking.js"></script>
+</body>
+
+</html>
